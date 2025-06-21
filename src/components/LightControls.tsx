@@ -74,7 +74,6 @@ export const LightControls = () => {
                   <Switch
                     checked={light.autoMode}
                     onCheckedChange={() => toggleAutoMode(zoneId)}
-                    size="sm"
                   />
                 </div>
               </div>
